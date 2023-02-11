@@ -1,40 +1,58 @@
-.row1{
+#head .row1{
     display: grid;
-    grid-template-columns: 7% 70% 7% 7% 7%;
-    padding-top: 10px;
-    padding-left: 50px;
-}
-.p1 {
-     position: absolute  ;
-     top: 200px;
-     padding-left: 80px ;
-     color: white;
-     font-size: 50px;
-
-
-}
-.p2 {
-    position: absolute;
-    top: 250px;
-    padding-left: 80px ;
-    color: white;
-    size: 20px;
-
-
-}
-.pic1 img{
-    padding-top: 20px;
-    width: 100%;
-    height: 80vh;
-    background-size: 100%;
-
-} 
-.hand {
-    padding-left: 80px;
-}
-.pt2{
-    padding-left: 380px;
-    top: px;
+    grid-template-columns: 7% 7% 70% 7% 7%;
     
 }
+.row1{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
+#head img{
+    width: 100%;
+
+}
+
+
+
+#body .p1{
+    position: absolute;
+    left: 80px;
+    top: 140px;
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    
+}
+#body .p2{
+    position: absolute;
+    left: 80px;
+    top:170px;
+    color: rgb(255, 255, 255);
+}
+#body2 {
+    padding-left: 80px;
+}
+
+.hand2 {
+    display: grid;
+    grid-template-columns: 28% 28% auto;
+}
+
+#body2 .img{
+    padding-right: 100px;
+}
+.hand2 {
+    padding-right: 50px;
+}
+
+
+.last1{
+    display: grid;
+    grid-template-columns: 27% 29% 33.33%;
+    background-color: rgb(154, 157, 157);
+    
+}
+
+
+    
+
+
